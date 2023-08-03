@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Pokedex.Models;
 using System.Text.Json;
 
+
 namespace Pokedex.Controllers;
 [ApiController]
 [Route("api")]
@@ -39,10 +40,11 @@ public class MainController : Controller
         using(var client = new HttpClient())
         {
             var endpoint = new Uri("https://pokeapi.co/api/v2/pokemon/ditto");
-            var result = await client.GetAsync(endpoint).Result.Content.ReadAsStringAsync();
-            string json = JsonSerializer.Serialize(result);
-            Console.WriteLine(result);
-            return result;
+            var response = await client.GetAsync(endpoint);
+            var responseString = await response.Content.ReadAsStringAsync();
+            string json = JsonSerializer.Serialize(responseString);
+            Console.WriteLine(json);
+            return json;
         }
     }
 }

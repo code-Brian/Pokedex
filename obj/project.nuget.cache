@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kBalz2AsYK7aUvDAdL+tLs5eRjRr07ISVtAe4nBgK+dfhypQNHKDGme/PvQ9o3D3FTs8pPEf5eOfjFOoV3y8Vg==",
+  "dgSpecHash": "/tGY44NjDl0GOVD2dpQrEipCyvKtpS1OZi0HpIog+a8uquWF12qU2v1xmVqM4BTHJPmLwxxKlhXKH16RqNFhYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Brian\\Documents\\coding\\practice\\ViteTS+NET\\Pokedex\\Pokedex.csproj",
+  "projectFilePath": "C:\\Users\\Brian\\Documents\\coding\\portfolio\\Pokedex\\Pokedex.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Brian\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Brian\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",

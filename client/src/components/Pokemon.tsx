@@ -1,18 +1,9 @@
-import {useState, useEffect} from 'react'
-import {SinglePokemon} from '../types/Pokemon.types'
-
-export const Pokemon: React.FC<SinglePokemon> = ({id, name, abilities, sprites, types}) => {
+export const Pokemon: React.FC = () => {
 
 return (
     <>
         <div>
-            <h2>Pokemon: {name} | ID: {id}</h2>
-            <ul>
-                <li>
-                    <ul>
-                    </ul>
-                </li>
-            </ul>
+            <h1>Soon there will be cake</h1>
         </div>
     </>
 )
